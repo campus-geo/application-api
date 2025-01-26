@@ -1,11 +1,6 @@
-@ApplicationApi_HostAddress = http://localhost:5211
+@ApplicationApi_HostAddress = http://localhost:5111
 
-GET {{ApplicationApi_HostAddress}}/todos/
-Accept: application/json
-
-###
-
-GET {{ApplicationApi_HostAddress}}/todos/1
+GET {{ApplicationApi_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
